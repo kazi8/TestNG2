@@ -7,14 +7,19 @@ public class TestOne {
     public void beforeMethod(){
         System.out.println("Before method");
     }
-    @Test
+    @Test(priority = 2)
     public void test1(){
         System.out.println("Test 1");
     }
 
-    @Test
+    @Test(priority = 0)
     public void test2(){
         System.out.println("Test 2");
+    }
+
+    @Test
+    public void test9(){
+        System.out.println("Test 9");
     }
 
 }
