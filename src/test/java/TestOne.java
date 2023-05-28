@@ -14,7 +14,7 @@ public class TestOne {
 
     @Test(priority = 0)
     public void test2(){
-        System.out.println("Test 2");
+        System.out.println("Hello Test 2");
     }
 
     @Test
